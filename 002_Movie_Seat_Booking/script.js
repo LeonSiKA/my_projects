@@ -14,13 +14,32 @@ const movieSelect = document.getElementById('movie');
 
 // const ticketPrice = parseInt(movieSelect.Value);
 let ticketPrice = parseInt(movieSelect.value);
-console.log(ticketPrice);
+
+// Save Selected movie index and price
+function setMovieData(movieIndex, moviePrice){
+  localStorage.setItem('selectedMovieIndex',moviePrice);
+  localStorage.setItem('selectMoviePrice',moviePrice);
+}
 
 //Update total and Count
 function updateSelectedCount() {
   //注意: .row .seat.selected 不等於 .row.seat.selected
   // .row .seat.selected 代表<div>row下面的class "seat selected"
   const selectedSeats = document.querySelectorAll('.row .seat.selected');
+    // Copy selected seats into arr
+    // Map through aray
+    // Return a new array indexes
+    // 使用...可以把多個目標內的內容依次選取完成
+    // 使用map可以用來傳遞陣列
+    // 被選取的座位會回傳以陣列所屬的index
+    const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
+
+    localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
+
+
+
+    console.log(seatsIndex);
+
   //使用Length回傳所選取的座位數量
   //Returns the number of nodes in the collection.
   const selectedSeatsCount = selectedSeats.length;
@@ -33,8 +52,10 @@ function updateSelectedCount() {
 // Movie Select event
 movieSelect.addEventListener('change', e => {
   ticketPrice = +e.target.value;
+  setMovieData(e.target.selectedIndex, e.target.value);
   updateSelectedCount();
 });
+
 
 
 // Seat Click Event
