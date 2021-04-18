@@ -52,9 +52,14 @@ function updateSelectedCount() {
 }
 
 // Get data from localstorage and populate UI
+
 function populateUI() {
+  //把選取的位置紀錄儲存在本地端的記憶體
   const selectedSeats = JSON.parse(localStorage.getItem('selectedSeats')
   );
+  // 條件一: 只要選取的seat不為null且選取的座位數量大於0
+  // 條件二: index>-1下，把seat的classlist新增selected
+  // indexOf下，如值為-1，則代表無回傳任何東西
   if(selectedSeats !== null && selectedSeats.length > 0) {
     seats.forEach((seat, index) => {
       if(selectedSeats.indexOf(index) > -1){
@@ -62,7 +67,7 @@ function populateUI() {
       }
     });
   }
-
+  // 把選取的電影紀錄儲存在本地端當中
   const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
   if (selectedMovieIndex !== null) {
     movieSelect.selectedIndex = selectedMovieIndex;
