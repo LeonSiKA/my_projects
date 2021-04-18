@@ -12,12 +12,14 @@ const total = document.getElementById('total');
 
 const movieSelect = document.getElementById('movie');
 
+populateUI();
+
 // const ticketPrice = parseInt(movieSelect.Value);
 let ticketPrice = parseInt(movieSelect.value);
 
 // Save Selected movie index and price
 function setMovieData(movieIndex, moviePrice){
-  localStorage.setItem('selectedMovieIndex',moviePrice);
+  localStorage.setItem('selectedMovieIndex',movieIndex);
   localStorage.setItem('selectMoviePrice',moviePrice);
 }
 
@@ -49,6 +51,24 @@ function updateSelectedCount() {
   total.innerText = selectedSeatsCount * ticketPrice;
 }
 
+// Get data from localstorage and populate UI
+function populateUI() {
+  const selectedSeats = JSON.parse(localStorage.getItem('selectedSeats')
+  );
+  if(selectedSeats !== null && selectedSeats.length > 0) {
+    seats.forEach((seat, index) => {
+      if(selectedSeats.indexOf(index) > -1){
+        seat.classList.add('selected');
+      }
+    });
+  }
+
+  const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
+  if (selectedMovieIndex !== null) {
+    movieSelect.selectedIndex = selectedMovieIndex;
+  }
+}
+
 // Movie Select event
 movieSelect.addEventListener('change', e => {
   ticketPrice = +e.target.value;
@@ -61,7 +81,7 @@ movieSelect.addEventListener('change', e => {
 // Seat Click Event
 // 使用addEventListener來追蹤每個點選動作
 // 目標為container
-container.addEventListener('click',(e)=>{
+container.addEventListener('click', e =>{
   // Target內有多個Class，所以使用e.target.classList.contains的方法來確認是否有相符的字串
   // 欲探討主題: e.target.classList與contains放在一起的用法
   if(e.target.classList.contains('seat') && !e.target.classList.contains('occupied')){
@@ -73,3 +93,7 @@ container.addEventListener('click',(e)=>{
     updateSelectedCount();
   }
 })
+
+// Initial count and total set
+// 讓一開始就顯示正確計算的票價
+updateSelectedCount();
