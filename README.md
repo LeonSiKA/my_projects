@@ -6,6 +6,8 @@ Website & Notes
 
 [003_Custom_Video_Player](https://leonsika.github.io/my_projects/003_Custom_Video_Player/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/SyZubDlPO)
 
+[004_Exchange_Rate_Calculator](https://leonsika.github.io/my_projects/004_Exchange_Rate_Calculator/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rJN3XPbD_)
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
