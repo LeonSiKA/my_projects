@@ -1,8 +1,9 @@
-[001_Form Validator](https://leonsika.github.io/my_projects/001_Form%20Validator/index.html)
+Website & Notes
+[001_Form Validator](https://leonsika.github.io/my_projects/001_Form%20Validator/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rJkY06GXd)
 
-[002_Movie Seat Selector](https://leonsika.github.io/my_projects/002_Movie_Seat_Booking/index.html)
+[002_Movie Seat Selector](https://leonsika.github.io/my_projects/002_Movie_Seat_Booking/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/BkOiGUsVO)
 
-[003_Custom_Video_Player](https://leonsika.github.io/my_projects/003_Custom_Video_Player/index.html)
+[003_Custom_Video_Player](https://leonsika.github.io/my_projects/003_Custom_Video_Player/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/SyZubDlPO)
 
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
