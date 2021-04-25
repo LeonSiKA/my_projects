@@ -8,6 +8,9 @@ Website & Notes
 
 [004_Exchange_Rate_Calculator](https://leonsika.github.io/my_projects/004_Exchange_Rate_Calculator/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rJN3XPbD_)
 
+[005_DOM_Array_Methods](https://leonsika.github.io/my_projects/005_DOM_Array_Methods/index.html) |
+[Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/S1mOPjSRP)
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
