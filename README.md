@@ -11,6 +11,9 @@ Website & Notes
 [005_DOM_Array_Methods](https://leonsika.github.io/my_projects/005_DOM_Array_Methods/index.html) |
 [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/S1mOPjSRP)
 
+[006_Menu Slider & Modal](https://leonsika.github.io/my_projects/006_Menu_Slider_and_Modal/index.html) |
+[Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rkUTH3Bvu)
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
