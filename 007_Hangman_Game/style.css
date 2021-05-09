@@ -1,0 +1,18 @@
+body {
+  background-color: #34495e;
+  color: #fff;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  /* 讓線的寬度增加 */
+  stroke-linecap: round; 
+  /* 讓線變成圓頭的樣式 */
+}
+
+.figure-part {
+  /* 先將hangman給隱藏 */
+  display: none;
+}
