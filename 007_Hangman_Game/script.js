@@ -11,7 +11,7 @@ const words = ['application','programming','interface','wizard'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
-const correctLetters = ['w','i','z','a','r','d'];
+const correctLetters = [];
 const wrongLetters = [];
 
 // Show hidden word
@@ -31,10 +31,50 @@ function displayWord() {
 
       const innerWord = wordEl.innerText.replace(/\n/g,'');
       if(innerWord === selectedWord){
-        finalMessage.innerText ='Congratulations! You won! 😃';
+        finalMessage.innerText ='Congratulations! You won!  😃';
         popup.style.display = 'flex';
       }
 }
 
+// Update the wrong letters
+function updateWrongLettersEl() {
+  console.log('Update wrong');
+}
+
+// Show notification
+function showNotification() {
+  notification.classList.add('show');
+
+  setTimeout(() => {
+    notification.classList.remove('show');
+  }, 2000);
+}
+
+// keydown letter press
+// 按下鍵盤時，會有相對應的值出現
+window.addEventListener('keydown', e => {
+  // console.log(e.keyCode);
+  if(e.keyCode >= 65 && e.keyCode <= 90) {
+    const letter = e.key;
+
+    if (selectedWord.includes(letter)) {
+      if(!correctLetters.includes(letter)) {
+        correctLetters.push(letter);
+
+        displayWord();
+      } else {
+        showNotification();
+      }
+    }
+  } else {
+    if(!wrongLetters.includes(letter)) {
+      wrongLetters.push(letter);
+
+      updateWrongLettersEl();
+    } else {
+      showNotification();
+    }
+  }
+});
 
 displayWord();
