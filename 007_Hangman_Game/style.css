@@ -4,14 +4,23 @@
 
 body {
   background-color: #34495e;
+  /* 被景色使用深色 */
   color: #fff;
+  /* 文字採用白色 */
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  /* 排列採用flex，讓各元素可以水平排列 */
   flex-direction: column;
+  /* 將元素改為垂直排列 */
   align-items: center;
+  /* 讓元素向中間集中 */
   height: 80vh;
+  /* /* 把height定為80vh，讓下方產出部分的background，作為彈出文字空間 */
+  /* vh代表的是view height，也就是螢幕可視範圍高度的百分比 */
   margin: 0;
+  /* 把外距調整為0 */
   overflow: hidden;
+  /* 把滾動條給隱藏起來 */
 }
 
 h1 {
@@ -68,7 +77,10 @@ h1 {
 /* 填入字母的藍色底線 */
 .letter {
   border-bottom: 3px solid #2980b9;
+  /* 設計底線為3px粗的線條 */
   display: inline-flex;
+  /* flex： 將對象作為彈性伸縮盒顯示 */
+  /* inline-flex：將對象作為內聯塊級彈性伸縮盒顯示*/
   font-size: 30px;
   align-items: center;
   justify-content: centent;
