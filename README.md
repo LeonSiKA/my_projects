@@ -17,6 +17,10 @@ Website & Notes
 [007_Hangman Game](https://leonsika.github.io/my_projects/007_Hangman_Game/index.html) |
 [Note](https://hackmd.io/fZVWaS2kTx20pCbxHYzVgQ)
 
+[008_Meal Finder](https://leonsika.github.io/my_projects/008_Meal_Finder/index.html) |
+[Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/HJh_70eju)
+
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
