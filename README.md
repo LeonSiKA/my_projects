@@ -20,6 +20,8 @@ Website & Notes
 [008_Meal Finder](https://leonsika.github.io/my_projects/008_Meal_Finder/index.html) |
 [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/HJh_70eju)
 
+[009_Expense_Tracker](https://leonsika.github.io/my_projects/009_Expense_Tracker/index.html) |
+[Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/HJh_70eju)
 
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
