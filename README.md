@@ -27,7 +27,7 @@ Website & Notes
 
 [011_Infinite_Scroll_Posts](https://leonsika.github.io/my_projects/011_Infinite_Scroll_Posts/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/By_KymNsO)
 
-[012_Typing_Game](https://leonsika.github.io/my_projects/011_Typing_Game/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rkaMrn4oO)
+[012_Typing_Game](https://leonsika.github.io/my_projects/012_Typing_Game/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rkaMrn4oO)
 
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
