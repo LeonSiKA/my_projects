@@ -23,6 +23,10 @@ Website & Notes
 [009_Expense_Tracker](https://leonsika.github.io/my_projects/009_Expense_Tracker/index.html) |
 [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/HJh_70eju)
 
+[010_Music_Player](https://leonsika.github.io/my_projects/010_Music_Player/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/B15p0SQiO)
+
+[011_Infinite_Scroll_Posts](https://leonsika.github.io/my_projects/011_Infinite_Scroll_Posts/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/B15p0SQiO)
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
