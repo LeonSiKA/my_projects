@@ -29,6 +29,8 @@ Website & Notes
 
 [012_Typing_Game](https://leonsika.github.io/my_projects/012_Typing_Game/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rkaMrn4oO)
 
+[013_Speech_Text_Reader](https://leonsika.github.io/my_projects/013_Speech_Text_Reader/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rypXyP8j_)
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
