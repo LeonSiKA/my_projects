@@ -31,7 +31,7 @@ Website & Notes
 
 [013_Speech_Text_Reader](https://leonsika.github.io/my_projects/013_Speech_Text_Reader/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rypXyP8j_)
 
-[014_Memory_Cards](https://leonsika.github.io/my_projects/013_Memory_Cards/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/r1taytjod)
+[014_Memory_Cards](https://leonsika.github.io/my_projects/014_Memory_Cards/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/r1taytjod)
 
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
