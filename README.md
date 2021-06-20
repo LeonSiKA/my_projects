@@ -33,6 +33,9 @@ Website & Notes
 
 [014_Memory_Cards](https://leonsika.github.io/my_projects/014_Memory_Cards/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/r1taytjod)
 
+[015_Lyrics_Search_App](https://leonsika.github.io/my_projects/015_Lyrics_Search_App/index.html) |
+(https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/rySXkO3s_)
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
