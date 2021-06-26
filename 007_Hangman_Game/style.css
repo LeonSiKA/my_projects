@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #34495e;
+  /* 被景色使用深色 */
+  color: #fff;
+  /* 文字採用白色 */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  /* 排列採用flex，讓各元素可以水平排列 */
+  flex-direction: column;
+  /* 將元素改為垂直排列 */
+  align-items: center;
+  /* 讓元素向中間集中 */
+  height: 80vh;
+  /* /* 把height定為80vh，讓下方產出部分的background，作為彈出文字空間 */
+  /* vh代表的是view height，也就是螢幕可視範圍高度的百分比 */
+  margin: 0;
+  /* 把外距調整為0 */
+  overflow: hidden;
+  /* 把滾動條給隱藏起來 */
+}
+
+h1 {
+  margin: 20px 0 0;
+}
+
+.game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 450px;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  /* 讓線的寬度增加 */
+  stroke-linecap: round; 
+  /* 讓線變成圓頭的樣式 */
+}
+
+.figure-part {
+  /* 先將hangman給隱藏 */
+  display: none;
+}
+
+.wrong-letters-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.wrong-letters-container p {
+  margin: 0 0 5px;
+}
+
+.wrong-letters-container span {
+  font-size: 24px;
+}
+
+.word {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 填入字母的藍色底線 */
+.letter {
+  border-bottom: 3px solid #2980b9;
+  /* 設計底線為3px粗的線條 */
+  display: inline-flex;
+  /* flex： 將對象作為彈性伸縮盒顯示 */
+  /* inline-flex：將對象作為內聯塊級彈性伸縮盒顯示*/
+  font-size: 30px;
+  align-items: center;
+  justify-content: centent;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
+
+.popup-container {
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content:center;
+}
+/* 設計一個彈跳視窗 */
+.popup {
+  background: #2980b9;
+  border-radius: 5px;
+  /* 邊緣圓角看起來還蠻不錯的 */
+  box-shadow: 0 15px 10px 3px rgba(0,0,0,0.1);
+  /* 有一點陰影會有視覺立體感 */
+  padding: 20px;
+  text-align: center;
+}
+/* 彈跳視窗的按鈕設計 */
+.popup button {
+  cursor: pointer;
+  background-color: #fff;
+  color: #2980b9;
+  border: 0;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+/* 讓執行按鈕動作時縮小2%，營造按鈕成功點下的感受 */
+.popup button:active {
+  transform: scale(0.98);
+}
+
+/* 雖然不明顯，但仍需要把邊界給消除掉 */
+.popup button:focus {
+  outline: 0;
+}
+
+.notification-container {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px 10px 0 0;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: -50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.notification-container p{
+  margin: 0;
+}
+
+.notification-container.show {
+  transform: translateY(-50px);
+}
