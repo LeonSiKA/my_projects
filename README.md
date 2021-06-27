@@ -41,6 +41,8 @@ Website & Notes
 
 [018_New_Year_Countdown](https://leonsika.github.io/my_projects/018_New_Year_Countdown/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/Hk6kWnEhd)
 
+[019_Sortable_List](https://leonsika.github.io/my_projects/019_Sortable_List/index.html) | [Note](https://hackmd.io/@F8_ZGXr0SHWEX7aKUyrU9w/By-kzmU2d)
+
 [CSS Project1](https://leonsika.github.io/my_projects/CSS_Project1/index.html)
 
 [CSS Project2](https://leonsika.github.io/my_projects/CSS_Project2/index.html)
