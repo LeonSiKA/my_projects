@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 開頭設定CSS連結路徑 -->
+  <link rel="stylesheet" href="style.css">
+  <!-- 設定網頁標題 -->
+  <title>Movie Seat Booking</title>
+</head>
+<body>
+  <!-- 設計一個container，主要是針對最上方的選單列表 -->
+  <div class="movie-container">
+    <label>Pick a movie:</label>
+    <select id="movie">
+      <!-- 設計四個選項，主要是撰寫票價選擇 -->
+      <option value="10">Avengers: Endgame ($10)</option>
+      <option value="12">Joker ($12)</option>
+      <option value="8">Toy Story 4 ($8)</option>
+      <option value="9">The Lion King ($9)</option>
+    </select>
+  </div>
+
+  <!-- 展示座位的三種型態 -->
+  <ul class="showcase">
+    <li>
+      <div class="seat"></div>
+        <small>N/A</small>
+    </li>
+    <li>
+      <div class="seat selected"></div>
+        <small>Selected</small>  
+    </li>
+    <li>
+      <div class="seat occupied"></div>
+        <small>Occupied</small>
+    </li>
+  </ul>
+
+  <!-- 把螢幕與座位規劃在一區 -->
+  <div class="container">
+    <div class="screen"></div>
+    <!-- 一排座位8個，共計規劃六排 -->
+    <div class="row">
+      <!-- 預計先有幾個座位被占 -->
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+  </div>
+
+  <p class="text">You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span></p>
+  <!-- 設定js檔案路徑 -->
+  <script src="script.js"></script>
+</body>
+</html>
